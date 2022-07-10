@@ -1,0 +1,137 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+/* ID's */
+#title{
+    background-color:#3AB0FF ;
+}
+#features{
+    background-color:#fff;
+}
+#testimonials{
+    background-color:#3AB0FF;
+    padding: 3% 20%;
+    text-align: center;
+}
+#press{
+    background-color:#3AB0FF;
+    text-align: center;
+}
+/* Navbar */
+.navbar-nav .nav-link.active{
+    color:#fff;
+}
+.navbar{
+    margin-bottom: 5%;
+    margin-left: -15%;
+    padding:0;
+}
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-nav{
+    margin-left: 60%;
+}
+.navbar-toggler{
+    margin-right: 0;
+}
+/* Containers */
+.container-fluid{
+    padding: 3% 15%;
+}
+.container-fluid.features{
+    padding-left: 23%;
+    margin-top: 15px;
+}
+.BAP{
+    padding-right: 30px;
+}
+.GTW{
+    padding-left:30px;
+}
+/* HEADERS*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3.Features{
+    font-size: 1.6rem;
+    font-weight:bold;
+}
+#testimonials h2{
+    color:#fff;
+    margin: 5% auto 3% auto;
+}
+/* .rotate{
+    transform: rotate(25deg);
+} */
+/* Images */
+img.A-plus{
+    height: 200px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.A-push{
+    height: 150px;
+    margin: 2% 3% 5%;
+}
+.A-push:hover{
+    color: #FF8B8B;
+}
+.press-img{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* Download Buttons */
+.download-button{
+    margin: 20px 5px 10px;
+}
+/* Font Awesome Icons */
+.fa-circle-check{
+    margin-left:30%;
+    color:#3AB0FF;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.fa-circle-check:hover{
+    color:#FF7396;
+}
+.fa-bullseye{
+    margin-left: 30%;
+    color:#FF7396;
+    margin-bottom: 20px;
+}
+.fa-bullseye:hover{
+    color:#3AB0FF
+}
+.fa-heart-circle-check{
+   margin-left:30%;
+   color:#3AB0FF; 
+   margin-bottom: 20px;
+}
+.fa-heart-circle-check:hover{
+    color:#FF7396;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 30%;
+    text-align: center;
+    color:#FF8B8B;
+    margin: 0 auto 20px auto;
+}
+/* Paragraphs */
+#features p{
+    color:gray;
+}
+/* Media Querry */
+@media (max-width:900px){
+    #title{
+        text-align: center;
+    }
+}
