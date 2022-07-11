@@ -1,16 +1,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    width: 100%;
 }
 /* ID's */
 #title{
     background-color:#3AB0FF ;
     text-align: center;
 }
-/* #features{
-    background-color:#fff;
-} */
+#features{
+    background-color: #DAEAF1;
+}
 #testimonials{
     background-color:#3AB0FF;
     padding: 3% 20%;
@@ -20,6 +19,13 @@ body{
     background-color:#3AB0FF;
     text-align: center;
 }
+#pricing{
+    text-align: center;
+    padding: 3px;
+}
+.card{
+    margin: 3px 5px;
+}
 /* Navbar */
 .navbar-nav .nav-link.active{
     color:#fff;
@@ -28,6 +34,12 @@ body{
     margin-bottom: 5%;
     margin-left: -15%;
     padding:0;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    text-align: right;
 }
 .nav-item{
     padding-left: 15px;
@@ -44,8 +56,8 @@ body{
     padding: 3% 15%;
 }
 .container-fluid.features{
-    padding-left: 23%;
-    margin-top: 15px;
+    /* padding-left: 23%;
+    margin-top: 15px; */
 }
 .BAP{
     padding-right: 30px;
@@ -123,12 +135,14 @@ hr{
     width: 30%;
     text-align: center;
     color:#FF8B8B;
-    margin: 0 auto 20px auto;
+    margin: auto;
 }
 /* Paragraphs */
 #features p{
     color:gray;
 }
+
+
 /* Media Querry */
 @media (max-width:1028px){
     #title{
@@ -166,9 +180,9 @@ hr{
         text-align: center;
     }
     h3.Features{
-        font-size: 40px;
+        font-size: 42px;
     }
     #features p{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
