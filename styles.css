@@ -160,6 +160,9 @@ hr{
     padding:15px;
     background-color: #DAEAF1;
 }
+button.contact{
+    font-size: 22px;
+}
 
 /* Media Querry */
 @media (max-width:1028px){
