@@ -148,11 +148,9 @@ hr{
     margin-bottom: 20px;
 }
     .download-button{
-    width: 200px;
+   width: 200px;
     height: 65px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 25px;
-    border-radius: 0.5rem;
+    padding:5px;
+    font-size: 30px;
     }
 }
