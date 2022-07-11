@@ -6,6 +6,7 @@ body{
 /* ID's */
 #title{
     background-color:#3AB0FF ;
+    text-align: center;
 }
 #features{
     background-color:#fff;
@@ -71,8 +72,7 @@ h3.Features{
 } */
 /* Images */
 img.A-plus{
-    height: 200px;
-    margin-left: 50px;
+    height: 300px;
     margin-bottom: 20px;
 }
 .A-push{
@@ -130,8 +130,25 @@ hr{
     color:gray;
 }
 /* Media Querry */
-@media (max-width:900px){
+@media (max-width:1028px){
     #title{
         text-align: center;
+    }
+    #title h1{
+        font-size: 80px;
+ }
+   .nav-item{
+     font-size: 30px;
+   }
+   .navbar-brand{
+    font-size: 30px;
+   }
+   .A-plus{
+    height: 400px;
+    margin-bottom: 20px;
+}
+    .download-button{
+    width: 200px;
+    height: 50px
     }
 }
