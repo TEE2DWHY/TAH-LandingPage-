@@ -92,7 +92,7 @@ img.A-plus{
 }
 /* Font Awesome Icons */
 .fa-circle-check{
-    margin-left:30%;
+    
     color:#3AB0FF;
     width: 150px;
     margin-bottom: 20px;
@@ -101,7 +101,7 @@ img.A-plus{
     color:#FF7396;
 }
 .fa-bullseye{
-    margin-left: 30%;
+   
     color:#FF7396;
     margin-bottom: 20px;
 }
@@ -109,7 +109,7 @@ img.A-plus{
     color:#3AB0FF
 }
 .fa-heart-circle-check{
-   margin-left:30%;
+   
    color:#3AB0FF; 
    margin-bottom: 20px;
 }
@@ -162,4 +162,13 @@ hr{
     .navbar-nav .dropdown-menu {
     position: absolute;
 }
+    #features{
+        text-align: center;
+    }
+    h3.Features{
+        font-size: 40px;
+    }
+    #features p{
+        font-size: 20px;
+    }
 }
