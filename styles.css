@@ -137,6 +137,9 @@ hr{
     #title h1{
         font-size: 80px;
  }
+   .navbar-brand{
+        font-size: 30px;
+   }
    .nav-item{
      font-size: 30px;
    }
@@ -148,9 +151,15 @@ hr{
     margin-bottom: 20px;
 }
     .download-button{
-   width: 200px;
+    width: 200px;
     height: 65px;
     padding:5px;
     font-size: 30px;
     }
+    .dropdown-item {
+        font-size: 23px;
+    }
+    .navbar-nav .dropdown-menu {
+    position: absolute;
+}
 }
