@@ -28,7 +28,7 @@ body{
 }
 #footer{
     text-align: center;
-    margin: 3% auto;
+    margin: 5% auto;
     font-family: 'Montserrat';
     font-size: larger;
 }
@@ -162,6 +162,12 @@ button.contact{
 }
 button.navbar-toggler{
     color:#fff;
+}
+.fa-brands{
+    padding: 8px;
+}
+.download-button.contact{
+    margin-bottom: 8%;
 }
 
 /* Media Querry */
