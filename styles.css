@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 /* ID's */
-#title{
+#title, #press{
     background-color:#3AB0FF ;
     text-align: center;
 }
@@ -14,10 +14,6 @@ body{
 #testimonials{
     background-color:#3AB0FF;
     padding: 30px auto;
-    text-align: center;
-}
-#press{
-    background-color:#3AB0FF;
     text-align: center;
 }
 #pricing{
@@ -91,9 +87,7 @@ font-family:'Montserrat', sans-serif;
 color:#fff;
 font-weight: 600;
 }
-/* .rotate{
-    transform: rotate(25deg);
-} */
+
 /* Images */
 img.A-plus{
     height: 300px;
@@ -121,9 +115,6 @@ img.A-plus{
     width: 150px;
     margin-bottom: 20px;
 }
-.fa-circle-check:hover{
-    color:#FF7396;
-}
 .fa-bullseye{
    
     color:#FF7396;
@@ -133,11 +124,10 @@ img.A-plus{
     color:#3AB0FF
 }
 .fa-heart-circle-check{
-   
    color:#3AB0FF; 
    margin-bottom: 20px;
 }
-.fa-heart-circle-check:hover{
+.fa-heart-circle-check:hover, .fa-circle-check:hover{
     color:#FF7396;
 }
 
@@ -158,7 +148,7 @@ hr{
     background-color: #DAEAF1;
 }
 button.contact{
-    font-size: 27px;
+    font-size: 22px;
 }
 button.navbar-toggler{
     color:#fff;
@@ -167,7 +157,8 @@ button.navbar-toggler{
     padding: 8px;
 }
 .download-button.contact{
-    margin-bottom: 8%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 /* Media Querry */
